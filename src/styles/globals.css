@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Color variables for future use */
+  :root {
+    /* --color-bg: #fcfaf8; */
+    /* --color-accent: #14cf93; */
+    /* --color-accent: ##64ffda; */
+    /* --color-accent: #61dafb); */
+    /* --color-text: #383838; */
+    /* --color-dark-2: #282828; */
+    /* --color-dark-3: #a2a2a2; */
+
+    /* Light Theme - Green Accent */
+    --color-bg: theme(colors.slate.50);
+    --color-bg-secondary: theme(colors.white);
+    --color-accent: theme(colors.emerald.600);
+    --color-accent-light: theme(colors.emerald.600/0.1);
+    --color-accent-torch: theme(colors.emerald.700/0.15);
+    --color-text: theme(colors.slate.600);
+    --color-dark-1: theme(colors.slate.900);
+    --color-dark-2: theme(colors.slate.700);
+    --color-dark-3: theme(colors.slate.300);
+  }
+
+  /* Dark Theme - Forest Green */
+  .dark {
+    --color-bg: #022c22; /* emerald-950 manually tuned for deep forest */
+    --color-bg-secondary: #064e3b; /* emerald-900 */
+    --color-accent: theme(colors.emerald.400);
+    --color-accent-light: theme(colors.emerald.400/0.1);
+    --color-text: theme(colors.emerald.100);
+    --color-dark-1: theme(colors.emerald.50);
+    --color-dark-2: theme(colors.emerald.200);
+    --color-dark-3: theme(colors.emerald.800);
+  }
+
+  @font-face {
+    font-family: 'agustina';
+    src: url('/fonts/Agustina-Signature.otf') format('opentype');
+  }
+
+  * {
+    @apply focus:outline-dashed outline-[3px] outline-offset-4 outline-accent;
+  }
+
+  ::selection {
+    @apply dark:bg-slate-600/30 bg-slate-400/30 text-accent;
+  }
+}
+
+/* TYPOGRAPHY */
+
+.heading-secondary,
+.h2 {
+  @apply text-3xl sm:text-4xl capitalize font-medium mb-8 sm:mb-12 text-dark-2;
+}
+.heading-tertiary,
+.h3 {
+  @apply text-xl sm:text-2xl tracking-wide capitalize font-medium text-dark-2;
+}

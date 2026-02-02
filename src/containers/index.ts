@@ -1,0 +1,13 @@
+export { default as About } from './APropos/About';
+export { default as Contact } from './NousRejoindre/Contact';
+export { default as Email } from './NousRejoindre/Email';
+export { default as Experience } from './Activite/Experience';
+export { default as FeaturedProjects } from './Activite/FeaturedProjects';
+export { default as Hero } from './Accueil/Hero';
+export { default as Footer } from './layout/Footer';
+export { default as Layout } from './layout/Layout';
+export { default as Navbar } from './layout/Navbar';
+export { default as Projects } from './Activite/Projects';
+export { default as Skills } from './APropos/Skills';
+export { default as Social } from './Social';
+export { default as SocialLinks } from './Social/SocialLinks';

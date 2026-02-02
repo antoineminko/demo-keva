@@ -12,7 +12,7 @@ const Hero = () => {
   const defaults = {
     tagline: heroSection.tagline,
     description: heroSection.description,
-    imageUrl: "https://www.keva-in.org/images/banner-slider/PXL_20230716_121628084.jpg"
+    imageUrl: "/images/activite/hero.webp"
   };
 
   const [content, setContent] = useState(defaults);

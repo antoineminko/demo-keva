@@ -42,6 +42,10 @@
     src: url('/fonts/Agustina-Signature.otf') format('opentype');
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   * {
     @apply focus:outline-dashed outline-[3px] outline-offset-4 outline-accent;
   }

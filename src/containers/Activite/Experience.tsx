@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 
 const Experience = () => {
   const activities = [
-    { id: 1, img: 'https://www.keva-in.org/images/PXL_20240704_135519660.RAW-01.COVER.jpg', title: 'Exploration' },
-    { id: 2, img: 'https://www.keva-in.org/images/dji_fly_20230713_115520_446_1689284946223_photo.jpg', title: 'Drone View' },
-    { id: 3, img: 'https://www.keva-in.org/images/PXL_20230918_083234961.jpg', title: 'Landscape' },
+    { id: 1, img: '/images/activite/exploration.webp', title: 'Exploration' },
+    { id: 2, img: '/images/activite/drone.webp', title: 'Drone View' },
+    { id: 3, img: '/images/activite/landscape.webp', title: 'Landscape' },
   ];
 
   return (

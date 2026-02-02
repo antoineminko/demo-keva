@@ -4,11 +4,13 @@ import Home from './app/page';
 import AdminPage from './app/admin/page';
 import Layout from './containers/layout/Layout';
 import PWARegistration from './components/ui/PWARegistration';
+import ScrollToAnchor from './components/ui/ScrollToAnchor';
 
 const App = () => {
   return (
     <Router>
       <PWARegistration />
+      <ScrollToAnchor />
       <Routes>
         <Route
           path="/"

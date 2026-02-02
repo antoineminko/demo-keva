@@ -9,7 +9,7 @@ const slides = [
     id: 1,
     title: "NOTRE VISION",
     description: "Explorer et préserver les merveilles naturelles du Gabon. Nous croyons en un avenir où l'homme et la nature coexistent en harmonie, valorisant la biodiversité unique de notre région.",
-    img: "https://www.keva-in.org/images/planting&working/nature-positive-thumbnail.jpg",
+    img: "/images/activite/vision.webp",
     features: [
       { label: "Savoirs", icon: "lucide:book-open" },
       { label: "Durabilité", icon: "lucide:leaf" },

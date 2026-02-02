@@ -5,12 +5,14 @@ import AdminPage from './app/admin/page';
 import Layout from './containers/layout/Layout';
 import PWARegistration from './components/ui/PWARegistration';
 import ScrollToAnchor from './components/ui/ScrollToAnchor';
+import InstallPrompt from './components/ui/InstallPrompt';
 
 const App = () => {
   return (
     <Router>
       <PWARegistration />
       <ScrollToAnchor />
+      <InstallPrompt />
       <Routes>
         <Route
           path="/"

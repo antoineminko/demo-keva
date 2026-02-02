@@ -11,6 +11,7 @@ export { default as SkillIcon } from './skills/SkillIcon';
 export { default as SocialIcon } from './socials/SocialIcon';
 export { default as SocialLink } from './socials/SocialLink';
 export { default as AuthorImage } from './ui/AuthorImage';
+export { default as InstallPrompt } from './ui/InstallPrompt';
 export { default as Cursor } from './ui/Cursor';
 export { default as ProjectCard } from './ui/ProjectCard';
 // export { default as ShowLottie } from './ui/ShowLottie';
